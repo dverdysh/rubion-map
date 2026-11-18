@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rubion — онлайн-карта</title>
+  <style>
+    body{margin:0;min-height:100vh;display:grid;place-items:center;background:#120b0e;color:#f3e9ec;font:16px/1.5 system-ui,-apple-system,sans-serif}
+    .card{max-width:440px;padding:24px 28px;border:1px solid #5a1d2a;border-radius:10px;background:#1c1115;text-align:center;box-shadow:0 12px 32px rgba(0,0,0,.5)}
+    h1{margin:0 0 8px;font-size:20px;color:#ff8fa3}
+    p{margin:0 0 16px;color:#cfc2c6;font-size:14px}
+    a.btn{display:inline-block;padding:10px 18px;border-radius:6px;background:#b92b49;color:#fff;text-decoration:none;font-weight:600}
+    a.btn:hover{background:#d43859}
+  </style>
+  <script>
+    (function(){
+      var target = "https://olympic-lib-looks-procedures.trycloudflare.com/" + (window.location.search || "") + (window.location.hash || "");
+      window.location.replace(target);
+    })();
+  </script>
+</head>
+<body>
+  <div class="card">
+    <h1>Карта мира Rubion</h1>
+    <p>Перенаправляю на актуальный адрес сервера…</p>
+    <a class="btn" href="https://olympic-lib-looks-procedures.trycloudflare.com/">Открыть карту вручную</a>
+  </div>
+</body>
+</html>
